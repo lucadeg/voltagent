@@ -1,10 +1,9 @@
+
 name: Release
 
 on:
-  push:
-    branches:
-      - main
-
+  workflow_dispatch:
+  # Automatic triggers removed; invoke through FounderOS/Admin Gate.
 jobs:
   test-packages:
     runs-on: ubuntu-latest
